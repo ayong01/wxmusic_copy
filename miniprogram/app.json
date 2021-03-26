@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/player/player",
+    "pages/singer/singer",
+    "pages/mypage/mypage"
+  ],
+  "window": {
+    "backgroundColor": "#FCC809",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "山人Music",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#919191",
+    "selectedColor": "#FCC809",
+    "backgroundColor": "#333",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "推荐",
+        "iconPath":"static/image/home-1.png",
+        "selectedIconPath":"static/image/home-2.png"
+      },
+      {
+        "pagePath": "pages/player/player",
+        "text": "正在播放",
+        "iconPath":"static/image/rank-1.png",
+        "selectedIconPath":"static/image/rank-2.png"
+      },
+      {
+        "pagePath": "pages/singer/singer",
+        "text": "歌手",
+        "iconPath":"static/image/singer-1.png",
+        "selectedIconPath":"static/image/singer-2.png"
+      },
+      {
+        "pagePath": "pages/mypage/mypage",
+        "text": "我",
+        "iconPath":"static/image/my-2.png",
+        "selectedIconPath":"static/image/my-1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
