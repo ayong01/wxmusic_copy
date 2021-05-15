@@ -15,10 +15,11 @@
     "pages/im/room/room",
     "pages/player/player",
     "pages/singer/singer",
-    "pages/mypage/mypage"
+    "pages/mypage/mypage",
+    "pages/search/search"
   ],
   "window": {
-    "backgroundColor": "#FCC809",
+    "backgroundColor": "#ffffff",
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#222",
     "navigationBarTitleText": "山人Music",
@@ -34,29 +35,30 @@
       {
         "pagePath": "pages/index/index",
         "text": "推荐",
-        "iconPath":"static/image/home-1.png",
-        "selectedIconPath":"static/image/home-2.png"
+        "iconPath": "static/image/home-1.png",
+        "selectedIconPath": "static/image/home-2.png"
       },
       {
         "pagePath": "pages/player/player",
         "text": "正在播放",
-        "iconPath":"static/image/rank-1.png",
-        "selectedIconPath":"static/image/rank-2.png"
+        "iconPath": "static/image/rank-1.png",
+        "selectedIconPath": "static/image/rank-2.png"
       },
       {
         "pagePath": "pages/singer/singer",
         "text": "歌手",
-        "iconPath":"static/image/singer-1.png",
-        "selectedIconPath":"static/image/singer-2.png"
+        "iconPath": "static/image/singer-1.png",
+        "selectedIconPath": "static/image/singer-2.png"
       },
       {
         "pagePath": "pages/mypage/mypage",
         "text": "我",
-        "iconPath":"static/image/my-2.png",
-        "selectedIconPath":"static/image/my-1.png"
+        "iconPath": "static/image/my-2.png",
+        "selectedIconPath": "static/image/my-1.png"
       }
     ]
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "darkmode": true
 }

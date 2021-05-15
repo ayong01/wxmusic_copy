@@ -159,3 +159,26 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.search-wrapper{
+  padding: 10rpx 30rpx;
+  position: relative;
+}
+
+.search-wrapper .search {
+  border-radius: 5px;
+  border: 1px solid #333;
+  font-size: 12px;
+}
+
+.search-wrapper .icon-search {
+  position: absolute;
+  right: 40rpx;
+  top: 20rpx;
+}
+
+.container{
+  background: #222;
+}
+
+@import 'index-wxa-auto-dark.wxss'

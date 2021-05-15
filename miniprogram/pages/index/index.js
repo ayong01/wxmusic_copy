@@ -13,6 +13,13 @@ Page({
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') // 如需尝试获取用户信息可改为false
   },
 
+  // 事件处理函数
+  toSearch: function(e){
+    wx.navigateTo({
+      url: '/pages/search/search',
+    })
+  },
+
   onLoad: function() {
     if (!wx.cloud) {
       wx.redirectTo({

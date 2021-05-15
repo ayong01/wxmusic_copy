@@ -1,10 +1,20 @@
 /**app.wxss**/
+/* 全局页面显示设计 */
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100%;
+  width: 100%;
   box-sizing: border-box;
+  background: #222;
 } 
+page{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: #fff;
+  background: #222;
+}
+
 
 button {
   background: initial;
@@ -154,3 +164,5 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+@import 'app-wxa-auto-dark.wxss'

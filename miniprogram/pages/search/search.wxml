@@ -1,0 +1,22 @@
+<!--miniprogram/pages/search.wxml-->
+<view class="search-page">
+  <!-- 输入框 + 搜索按钮-->
+  <view class="search-wrapper">
+    <input class="search"
+           placeholder="输入歌手名，歌曲名搜索"
+           placeholder-style="color: #ffcd32;" auto-focus
+           placeholder-class="placeholder"
+           confirm-type="search"
+           bindconfirm="searchAction"
+           bindinput="searchAction"/>
+    <view class="button">搜索</view>
+  </view>
+  <!-- 热门搜索 -->
+  <view>
+
+  </view>
+  <!-- 历史搜索 -->
+  <view>
+
+  </view>
+</view>
